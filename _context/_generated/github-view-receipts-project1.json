@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "project": {
+    "api": "https://api.github.com",
+    "owner": "cleonsanchezgp-glitch",
+    "repository": "busqueda_de_empleo",
+    "number": 1
+  },
+  "views": {
+    "delivery_board": {
+      "state": "created",
+      "id": 2,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/1/views/2",
+      "name": "01 · Delivery Board",
+      "plan_hash": "b6c3117b8771063082431cf22fc7ac92dc44cebe521d827d68d2b59ffed8e9b3",
+      "requested_at": "2026-09-11T18:43:24.821Z",
+      "request": {
+        "name": "01 · Delivery Board",
+        "layout": "board",
+        "filter": "is:issue label:\"qualitas:planning\" is:open",
+        "visible_fields": [
+          411175312,
+          411175314,
+          411232293,
+          411232294,
+          411232295
+        ],
+        "vertical_group_by": [
+          411175314
+        ]
+      },
+      "created_at": "2026-09-11T18:43:24.821Z",
+      "reconciled_at": "2026-09-11T18:50:00.000Z",
+      "reconciliation_evidence": "User confirmed in Codex chat that GitHub Project view 2 is 01 Delivery Board."
+    },
+    "work_packages": {
+      "state": "created",
+      "id": 3,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/1/views/3",
+      "name": "02 · Work Packages",
+      "plan_hash": "3e037fad0d66a3c4c77942f658117ce4f88c399985cac3436f94a35c2f0d03ee",
+      "requested_at": "2026-09-11T19:05:00.000Z",
+      "request": {
+        "name": "02 · Work Packages",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" label:\"work:work-package\"",
+        "visible_fields": [
+          411175312,
+          411175315,
+          411175321,
+          411175314,
+          411232293,
+          411232294,
+          411232295,
+          411232296
+        ]
+      },
+      "created_at": "2026-09-11T18:57:00Z"
+    },
+    "tasks_by_work_package": {
+      "state": "created",
+      "id": 4,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/1/views/4",
+      "name": "03 · Tasks by Work Package",
+      "plan_hash": "3e037fad0d66a3c4c77942f658117ce4f88c399985cac3436f94a35c2f0d03ee",
+      "requested_at": "2026-09-11T19:00:00.000Z",
+      "request": {
+        "name": "03 · Tasks by Work Package",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" label:\"work:task\"",
+        "visible_fields": [
+          411175312,
+          411175315,
+          411175321,
+          411175322,
+          411175314,
+          411232293,
+          411232296
+        ]
+      },
+      "created_at": "2026-09-11T18:57:54Z"
+    },
+    "traceability_register": {
+      "state": "created",
+      "id": 5,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/1/views/5",
+      "name": "04 · Traceability Register",
+      "plan_hash": "3e037fad0d66a3c4c77942f658117ce4f88c399985cac3436f94a35c2f0d03ee",
+      "requested_at": "2026-09-11T19:01:00.000Z",
+      "request": {
+        "name": "04 · Traceability Register",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\"",
+        "visible_fields": [
+          411175312,
+          411175321,
+          411232293,
+          411232296,
+          411232295,
+          411175314
+        ]
+      },
+      "created_at": "2026-09-11T18:59:27Z"
+    },
+    "work_by_project": {
+      "state": "created",
+      "id": 6,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/1/views/6",
+      "name": "05 · Work by PRJ",
+      "plan_hash": "3e037fad0d66a3c4c77942f658117ce4f88c399985cac3436f94a35c2f0d03ee",
+      "requested_at": "2026-09-11T19:02:00.000Z",
+      "request": {
+        "name": "05 · Work by PRJ",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" has:PRJ",
+        "visible_fields": [
+          411175312,
+          411175315,
+          411175321,
+          411175322,
+          411175314,
+          411232293,
+          411232294,
+          411232295,
+          411232296,
+          411232300
+        ],
+        "group_by": [
+          411232300
+        ],
+        "sort_by": [
+          [
+            411232293,
+            "asc"
+          ]
+        ]
+      },
+      "created_at": "2026-09-11T19:00:58Z"
+    }
+  }
+}

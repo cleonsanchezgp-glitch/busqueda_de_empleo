@@ -1,0 +1,1140 @@
+{
+  "version": 1,
+  "operations": {
+    "INI-001": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:42:46.076Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:42:46.479Z",
+        "action": "create_issue",
+        "issue_number": 1,
+        "issue_id": 5432269108,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/1"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:42:46.480Z",
+        "action": "add_project_item",
+        "issue_number": 1,
+        "issue_id": 5432269108
+      }
+    ],
+    "PRJ-001": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:30.658Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:31.259Z",
+        "action": "create_issue",
+        "issue_number": 2,
+        "issue_id": 5432272155,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/2"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:31.260Z",
+        "action": "add_project_item",
+        "issue_number": 2,
+        "issue_id": 5432272155
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:31.919Z",
+        "action": "add_project_item",
+        "issue_number": 2,
+        "issue_id": 5432272155,
+        "project_item_id": 245879963,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/2"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:05.904Z",
+        "action": "add_sub_issue",
+        "parent": 1,
+        "child": 2
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:06.347Z",
+        "action": "add_sub_issue",
+        "parent": 1,
+        "child": 2
+      }
+    ],
+    "WP-001": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:32.570Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:32.965Z",
+        "action": "create_issue",
+        "issue_number": 3,
+        "issue_id": 5432272268,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/3"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:32.966Z",
+        "action": "add_project_item",
+        "issue_number": 3,
+        "issue_id": 5432272268
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:33.469Z",
+        "action": "add_project_item",
+        "issue_number": 3,
+        "issue_id": 5432272268,
+        "project_item_id": 245879969,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/3"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:06.556Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 3
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:07.200Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 3
+      }
+    ],
+    "TSK-001": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:34.106Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:34.815Z",
+        "action": "create_issue",
+        "issue_number": 4,
+        "issue_id": 5432272394,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/4"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:34.816Z",
+        "action": "add_project_item",
+        "issue_number": 4,
+        "issue_id": 5432272394
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:35.316Z",
+        "action": "add_project_item",
+        "issue_number": 4,
+        "issue_id": 5432272394,
+        "project_item_id": 245879986,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/4"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:07.416Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 4
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:07.990Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 4
+      }
+    ],
+    "TSK-002": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:35.975Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:36.355Z",
+        "action": "create_issue",
+        "issue_number": 5,
+        "issue_id": 5432272506,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/5"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:36.356Z",
+        "action": "add_project_item",
+        "issue_number": 5,
+        "issue_id": 5432272506
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:36.992Z",
+        "action": "add_project_item",
+        "issue_number": 5,
+        "issue_id": 5432272506,
+        "project_item_id": 245879997,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/5"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:08.303Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 5
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:08.832Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 5
+      }
+    ],
+    "TSK-003": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:37.580Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:37.994Z",
+        "action": "create_issue",
+        "issue_number": 6,
+        "issue_id": 5432272608,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/6"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:37.995Z",
+        "action": "add_project_item",
+        "issue_number": 6,
+        "issue_id": 5432272608
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:38.395Z",
+        "action": "add_project_item",
+        "issue_number": 6,
+        "issue_id": 5432272608,
+        "project_item_id": 245880003,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/6"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:09.130Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 6
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:09.716Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 6
+      }
+    ],
+    "TSK-004": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:39.149Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:39.671Z",
+        "action": "create_issue",
+        "issue_number": 7,
+        "issue_id": 5432272711,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/7"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:39.673Z",
+        "action": "add_project_item",
+        "issue_number": 7,
+        "issue_id": 5432272711
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:40.114Z",
+        "action": "add_project_item",
+        "issue_number": 7,
+        "issue_id": 5432272711,
+        "project_item_id": 245880007,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/7"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:09.999Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 7
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:10.568Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 7
+      }
+    ],
+    "TSK-005": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:40.806Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:41.213Z",
+        "action": "create_issue",
+        "issue_number": 8,
+        "issue_id": 5432272807,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/8"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:41.215Z",
+        "action": "add_project_item",
+        "issue_number": 8,
+        "issue_id": 5432272807
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:41.729Z",
+        "action": "add_project_item",
+        "issue_number": 8,
+        "issue_id": 5432272807,
+        "project_item_id": 245880013,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/8"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:10.870Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 8
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:11.442Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 8
+      }
+    ],
+    "TSK-006": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:42.395Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:42.821Z",
+        "action": "create_issue",
+        "issue_number": 9,
+        "issue_id": 5432272897,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/9"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:42.822Z",
+        "action": "add_project_item",
+        "issue_number": 9,
+        "issue_id": 5432272897
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:43.254Z",
+        "action": "add_project_item",
+        "issue_number": 9,
+        "issue_id": 5432272897,
+        "project_item_id": 245880024,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/9"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:11.778Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 9
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:12.226Z",
+        "action": "add_sub_issue",
+        "parent": 3,
+        "child": 9
+      }
+    ],
+    "WP-002": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:43.862Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:44.259Z",
+        "action": "create_issue",
+        "issue_number": 10,
+        "issue_id": 5432273009,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/10"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:44.260Z",
+        "action": "add_project_item",
+        "issue_number": 10,
+        "issue_id": 5432273009
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:44.659Z",
+        "action": "add_project_item",
+        "issue_number": 10,
+        "issue_id": 5432273009,
+        "project_item_id": 245880031,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/10"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:12.533Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 10
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:13.031Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 10
+      }
+    ],
+    "TSK-007": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:45.431Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:45.883Z",
+        "action": "create_issue",
+        "issue_number": 11,
+        "issue_id": 5432273126,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/11"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:45.884Z",
+        "action": "add_project_item",
+        "issue_number": 11,
+        "issue_id": 5432273126
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:46.259Z",
+        "action": "add_project_item",
+        "issue_number": 11,
+        "issue_id": 5432273126,
+        "project_item_id": 245880038,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/11"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:13.229Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 11
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:13.869Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 11
+      }
+    ],
+    "TSK-008": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:46.934Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:47.471Z",
+        "action": "create_issue",
+        "issue_number": 12,
+        "issue_id": 5432273222,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/12"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:47.472Z",
+        "action": "add_project_item",
+        "issue_number": 12,
+        "issue_id": 5432273222
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:47.981Z",
+        "action": "add_project_item",
+        "issue_number": 12,
+        "issue_id": 5432273222,
+        "project_item_id": 245880043,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/12"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:14.147Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 12
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:14.586Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 12
+      }
+    ],
+    "TSK-009": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:48.666Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:49.075Z",
+        "action": "create_issue",
+        "issue_number": 13,
+        "issue_id": 5432273333,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/13"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:49.076Z",
+        "action": "add_project_item",
+        "issue_number": 13,
+        "issue_id": 5432273333
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:49.474Z",
+        "action": "add_project_item",
+        "issue_number": 13,
+        "issue_id": 5432273333,
+        "project_item_id": 245880052,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/13"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:14.863Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 13
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:15.469Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 13
+      }
+    ],
+    "TSK-010": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:50.074Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:50.478Z",
+        "action": "create_issue",
+        "issue_number": 14,
+        "issue_id": 5432273440,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/14"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:50.479Z",
+        "action": "add_project_item",
+        "issue_number": 14,
+        "issue_id": 5432273440
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:50.904Z",
+        "action": "add_project_item",
+        "issue_number": 14,
+        "issue_id": 5432273440,
+        "project_item_id": 245880058,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/14"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:15.756Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 14
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:16.227Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 14
+      }
+    ],
+    "TSK-011": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:51.552Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:51.979Z",
+        "action": "create_issue",
+        "issue_number": 15,
+        "issue_id": 5432273550,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/15"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:51.980Z",
+        "action": "add_project_item",
+        "issue_number": 15,
+        "issue_id": 5432273550
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:52.344Z",
+        "action": "add_project_item",
+        "issue_number": 15,
+        "issue_id": 5432273550,
+        "project_item_id": 245880063,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/15"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:16.625Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 15
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:17.191Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 15
+      }
+    ],
+    "TSK-012": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:53.044Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:53.528Z",
+        "action": "create_issue",
+        "issue_number": 16,
+        "issue_id": 5432273632,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/16"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:53.529Z",
+        "action": "add_project_item",
+        "issue_number": 16,
+        "issue_id": 5432273632
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:53.979Z",
+        "action": "add_project_item",
+        "issue_number": 16,
+        "issue_id": 5432273632,
+        "project_item_id": 245880075,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/16"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:17.509Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 16
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:17.981Z",
+        "action": "add_sub_issue",
+        "parent": 10,
+        "child": 16
+      }
+    ],
+    "WP-003": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:54.565Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:55.094Z",
+        "action": "create_issue",
+        "issue_number": 17,
+        "issue_id": 5432273712,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/17"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:55.095Z",
+        "action": "add_project_item",
+        "issue_number": 17,
+        "issue_id": 5432273712
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:55.474Z",
+        "action": "add_project_item",
+        "issue_number": 17,
+        "issue_id": 5432273712,
+        "project_item_id": 245880080,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/17"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:18.268Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 17
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:18.834Z",
+        "action": "add_sub_issue",
+        "parent": 2,
+        "child": 17
+      }
+    ],
+    "TSK-013": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:56.077Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:56.700Z",
+        "action": "create_issue",
+        "issue_number": 18,
+        "issue_id": 5432273822,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/18"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:56.701Z",
+        "action": "add_project_item",
+        "issue_number": 18,
+        "issue_id": 5432273822
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:57.080Z",
+        "action": "add_project_item",
+        "issue_number": 18,
+        "issue_id": 5432273822,
+        "project_item_id": 245880086,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/18"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:19.032Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 18
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:19.614Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 18
+      }
+    ],
+    "TSK-014": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:57.691Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:58.139Z",
+        "action": "create_issue",
+        "issue_number": 19,
+        "issue_id": 5432273928,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/19"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:58.140Z",
+        "action": "add_project_item",
+        "issue_number": 19,
+        "issue_id": 5432273928
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:58.675Z",
+        "action": "add_project_item",
+        "issue_number": 19,
+        "issue_id": 5432273928,
+        "project_item_id": 245880095,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/19"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:19.944Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 19
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:20.391Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 19
+      }
+    ],
+    "TSK-015": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:59.176Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:43:59.558Z",
+        "action": "create_issue",
+        "issue_number": 20,
+        "issue_id": 5432274020,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/20"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:43:59.558Z",
+        "action": "add_project_item",
+        "issue_number": 20,
+        "issue_id": 5432274020
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:00.009Z",
+        "action": "add_project_item",
+        "issue_number": 20,
+        "issue_id": 5432274020,
+        "project_item_id": 245880106,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/20"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:20.670Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 20
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:21.103Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 20
+      }
+    ],
+    "TSK-016": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:00.866Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:01.331Z",
+        "action": "create_issue",
+        "issue_number": 21,
+        "issue_id": 5432274129,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/21"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:01.332Z",
+        "action": "add_project_item",
+        "issue_number": 21,
+        "issue_id": 5432274129
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:01.767Z",
+        "action": "add_project_item",
+        "issue_number": 21,
+        "issue_id": 5432274129,
+        "project_item_id": 245880118,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/21"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:21.380Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 21
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:21.923Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 21
+      }
+    ],
+    "TSK-017": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:02.443Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:02.881Z",
+        "action": "create_issue",
+        "issue_number": 22,
+        "issue_id": 5432274227,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/22"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:02.882Z",
+        "action": "add_project_item",
+        "issue_number": 22,
+        "issue_id": 5432274227
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:03.262Z",
+        "action": "add_project_item",
+        "issue_number": 22,
+        "issue_id": 5432274227,
+        "project_item_id": 245880125,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/22"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:22.308Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 22
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:22.956Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 22
+      }
+    ],
+    "TSK-018": [
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:03.962Z",
+        "action": "create_issue"
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:04.454Z",
+        "action": "create_issue",
+        "issue_number": 23,
+        "issue_id": 5432274349,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/23"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:04.455Z",
+        "action": "add_project_item",
+        "issue_number": 23,
+        "issue_id": 5432274349
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:04.999Z",
+        "action": "add_project_item",
+        "issue_number": 23,
+        "issue_id": 5432274349,
+        "project_item_id": 245880128,
+        "html_url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/23"
+      },
+      {
+        "state": "intent",
+        "at": "2026-09-12T08:44:23.260Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 23
+      },
+      {
+        "state": "created",
+        "at": "2026-09-12T08:44:23.771Z",
+        "action": "add_sub_issue",
+        "parent": 17,
+        "child": 23
+      }
+    ]
+  },
+  "completed_at": "2026-09-12T08:44:24.266Z",
+  "result": {
+    "project_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3",
+    "issue_count": 23,
+    "project_item_count": 23,
+    "created_or_reused": [
+      {
+        "number": 1,
+        "title": "[INI-001] App Busqueda Empleo MVP",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/1"
+      },
+      {
+        "number": 2,
+        "title": "[PRJ-001] Initial job-search assistant MVP",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/2"
+      },
+      {
+        "number": 3,
+        "title": "[WP-001] Offer collection and filtering",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/3"
+      },
+      {
+        "number": 4,
+        "title": "[TSK-001] Define connector contract and supported portal configuration",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/4"
+      },
+      {
+        "number": 5,
+        "title": "[TSK-002] Implement initial portal connector execution flow",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/5"
+      },
+      {
+        "number": 6,
+        "title": "[TSK-003] Normalize raw offers into the internal offer model",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/6"
+      },
+      {
+        "number": 7,
+        "title": "[TSK-004] Apply configurable search-profile filtering",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/7"
+      },
+      {
+        "number": 8,
+        "title": "[TSK-005] Store classification and filter reasoning",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/8"
+      },
+      {
+        "number": 9,
+        "title": "[TSK-006] Detect likely duplicates across collected offers",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/9"
+      },
+      {
+        "number": 10,
+        "title": "[WP-002] Offer storage and WhatsApp notifications",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/10"
+      },
+      {
+        "number": 11,
+        "title": "[TSK-007] Create accepted-offer persistence model",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/11"
+      },
+      {
+        "number": 12,
+        "title": "[TSK-008] Prevent duplicate storage and duplicate alerts",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/12"
+      },
+      {
+        "number": 13,
+        "title": "[TSK-009] Create notification candidates for newly accepted offers",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/13"
+      },
+      {
+        "number": 14,
+        "title": "[TSK-010] Implement WhatsApp provider adapter boundary",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/14"
+      },
+      {
+        "number": 15,
+        "title": "[TSK-011] Protect sensitive notification and offer configuration",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/15"
+      },
+      {
+        "number": 16,
+        "title": "[TSK-012] Expose notification state for retry and inspection",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/16"
+      },
+      {
+        "number": 17,
+        "title": "[WP-003] Backend statistics and frontend dashboard",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/17"
+      },
+      {
+        "number": 18,
+        "title": "[TSK-013] Design internal offer and statistics API responses",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/18"
+      },
+      {
+        "number": 19,
+        "title": "[TSK-014] Implement aggregation by source portal and application destination",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/19"
+      },
+      {
+        "number": 20,
+        "title": "[TSK-015] Build frontend statistics views",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/20"
+      },
+      {
+        "number": 21,
+        "title": "[TSK-016] Add access control boundary before non-local exposure",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/21"
+      },
+      {
+        "number": 22,
+        "title": "[TSK-017] Add modular tests for API and dashboard behavior",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/22"
+      },
+      {
+        "number": 23,
+        "title": "[TSK-018] Preserve automation-ready offer data through the API",
+        "url": "https://github.com/cleonsanchezgp-glitch/busqueda_de_empleo/issues/23"
+      }
+    ]
+  }
+}

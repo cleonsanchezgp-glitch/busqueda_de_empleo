@@ -1,0 +1,26 @@
+version: 1
+
+management_model:
+  semantic_model: qualitas-lifecycle
+  vocabulary_profile: classic
+
+authorities:
+  specification: markdown
+  design: markdown
+  planning: github
+  time: github
+  verification_definition: markdown
+  verification_execution: github-actions
+
+backend_configuration:
+  github:
+    owner: cleonsanchezgp-glitch
+    repository: busqueda_de_empleo
+    project_number: 3
+
+language:
+  documentation: en
+  terminology: formal
+
+migration:
+  aliases: []

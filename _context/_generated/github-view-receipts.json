@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "project": {
+    "api": "https://api.github.com",
+    "owner": "cleonsanchezgp-glitch",
+    "repository": "busqueda_de_empleo",
+    "number": 3
+  },
+  "views": {
+    "delivery_board": {
+      "state": "created",
+      "id": 2,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3/views/2",
+      "name": "01 · Delivery Board",
+      "plan_hash": "eb442b265602f1cb690504a115ffd3d3f2f43c90d7915e1937646a2f443ac98b",
+      "requested_at": "2026-09-12T09:02:46.976Z",
+      "request": {
+        "name": "01 · Delivery Board",
+        "layout": "board",
+        "filter": "is:issue label:\"qualitas:planning\" is:open",
+        "visible_fields": [
+          411395228,
+          411395233,
+          411403294,
+          411403310,
+          411403320
+        ],
+        "vertical_group_by": [
+          411395233
+        ]
+      },
+      "reconciled_at": "2026-09-12T09:06:00.000Z",
+      "reconciliation_evidence": "After one authorized POST for delivery_board, GitHub REST view-items endpoint returned 200 for Project 3 view 2 and 404 for views 3-10. REST does not expose view metadata by number; name is repaired from the reviewed request."
+    },
+    "work_packages": {
+      "state": "created",
+      "name": "02 · Work Packages",
+      "plan_hash": "eb442b265602f1cb690504a115ffd3d3f2f43c90d7915e1937646a2f443ac98b",
+      "requested_at": "2026-09-12T09:38:58.868Z",
+      "request": {
+        "name": "02 · Work Packages",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" label:\"work:work-package\"",
+        "visible_fields": [
+          411395228,
+          411395235,
+          411395242,
+          411395233,
+          411403294,
+          411403310,
+          411403320,
+          411403323
+        ]
+      },
+      "id": 48797209,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3/views/3",
+      "created_at": "2026-09-12T09:38:59.339Z"
+    },
+    "tasks_by_work_package": {
+      "state": "created",
+      "name": "03 · Tasks by Work Package",
+      "plan_hash": "eb442b265602f1cb690504a115ffd3d3f2f43c90d7915e1937646a2f443ac98b",
+      "requested_at": "2026-09-12T09:38:59.341Z",
+      "request": {
+        "name": "03 · Tasks by Work Package",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" label:\"work:task\"",
+        "visible_fields": [
+          411395228,
+          411395235,
+          411395242,
+          411395243,
+          411395233,
+          411403294,
+          411403323
+        ]
+      },
+      "id": 48797210,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3/views/4",
+      "created_at": "2026-09-12T09:38:59.910Z"
+    },
+    "traceability_register": {
+      "state": "created",
+      "name": "04 · Traceability Register",
+      "plan_hash": "eb442b265602f1cb690504a115ffd3d3f2f43c90d7915e1937646a2f443ac98b",
+      "requested_at": "2026-09-12T09:38:59.911Z",
+      "request": {
+        "name": "04 · Traceability Register",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\"",
+        "visible_fields": [
+          411395228,
+          411395242,
+          411403294,
+          411403323,
+          411403320,
+          411395233
+        ]
+      },
+      "id": 48797211,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3/views/5",
+      "created_at": "2026-09-12T09:39:00.203Z"
+    },
+    "work_by_project": {
+      "state": "created",
+      "name": "05 · Work by PRJ",
+      "plan_hash": "eb442b265602f1cb690504a115ffd3d3f2f43c90d7915e1937646a2f443ac98b",
+      "requested_at": "2026-09-12T09:39:00.203Z",
+      "request": {
+        "name": "05 · Work by PRJ",
+        "layout": "table",
+        "filter": "is:issue label:\"qualitas:planning\" has:PRJ",
+        "visible_fields": [
+          411395228,
+          411395235,
+          411395242,
+          411395243,
+          411395233,
+          411403294,
+          411403310,
+          411403320,
+          411403323,
+          411403324
+        ],
+        "group_by": [
+          411403324
+        ],
+        "sort_by": [
+          [
+            411403294,
+            "asc"
+          ]
+        ]
+      },
+      "id": 48797212,
+      "html_url": "https://github.com/users/cleonsanchezgp-glitch/projects/3/views/6",
+      "created_at": "2026-09-12T09:39:00.549Z"
+    }
+  }
+}

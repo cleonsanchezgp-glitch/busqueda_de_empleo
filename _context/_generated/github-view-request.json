@@ -1,0 +1,77 @@
+{
+  "selected": [
+    "delivery_board",
+    "work_packages",
+    "tasks_by_work_package",
+    "traceability_register",
+    "work_by_project"
+  ],
+  "filters": {
+    "planning": {
+      "kind": "label",
+      "value": "qualitas:planning"
+    },
+    "work_package": {
+      "kind": "label",
+      "value": "work:work-package"
+    },
+    "task": {
+      "kind": "label",
+      "value": "work:task"
+    }
+  },
+  "filter_evidence": {
+    "source": "supported-inspection",
+    "observed_at": "2026-09-12T08:50:39.1264361Z",
+    "evidence": "Rector created or verified repository labels qualitas:planning, work:work-package, and work:task through GitHub REST, then verified 23 Project 3 items selected by those labels."
+  },
+  "readiness": {
+    "hierarchy": {
+      "confirmed": true,
+      "source": "supported-inspection",
+      "observed_at": "2026-09-12T08:50:39.1264361Z",
+      "evidence": "Rector inspected GitHub issues through REST: INI-001 has 1 sub-issue, PRJ-001 has 3 sub-issues, and WP-001/WP-002/WP-003 each have 6 sub-issues."
+    },
+    "lineage": {
+      "confirmed": true,
+      "expected": 22,
+      "assigned": 22,
+      "ambiguous": 0,
+      "source": "supported-inspection",
+      "observed_at": "2026-09-12T08:50:39.1264361Z",
+      "evidence": "Rector inspected GitHub Project 3 items through REST: all 22 non-Initiative items have PRJ field value PRJ-001, and no ambiguous lineage assignments were found."
+    }
+  },
+  "view_states": {
+    "delivery_board": {
+      "state": "absent",
+      "source": "user-confirmed",
+      "observed_at": "2026-09-12T08:52:58.9634358Z",
+      "evidence": "User confirmed in Codex chat for GitHub Project 3: confirmo que no existen."
+    },
+    "work_packages": {
+      "state": "absent",
+      "source": "user-confirmed",
+      "observed_at": "2026-09-12T08:52:58.9634358Z",
+      "evidence": "User confirmed in Codex chat for GitHub Project 3: confirmo que no existen."
+    },
+    "tasks_by_work_package": {
+      "state": "absent",
+      "source": "user-confirmed",
+      "observed_at": "2026-09-12T08:52:58.9634358Z",
+      "evidence": "User confirmed in Codex chat for GitHub Project 3: confirmo que no existen."
+    },
+    "traceability_register": {
+      "state": "absent",
+      "source": "user-confirmed",
+      "observed_at": "2026-09-12T08:52:58.9634358Z",
+      "evidence": "User confirmed in Codex chat for GitHub Project 3: confirmo que no existen."
+    },
+    "work_by_project": {
+      "state": "absent",
+      "source": "user-confirmed",
+      "observed_at": "2026-09-12T08:52:58.9634358Z",
+      "evidence": "User confirmed in Codex chat for GitHub Project 3: confirmo que no existen."
+    }
+  }
+}
